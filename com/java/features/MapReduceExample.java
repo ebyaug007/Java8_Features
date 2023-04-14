@@ -1,4 +1,4 @@
-package com.javatechie.map_reduce;
+package com.java.features;
 
 import java.util.Arrays;
 import java.util.List;

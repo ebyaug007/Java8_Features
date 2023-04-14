@@ -1,15 +1,15 @@
-package com.javatechie.map_reduce;
+package com.java.features;
 
-public class Employee {
+public class EmployeeMapReduce {
     private int id;
     private String name;
     private String grade;
     private double salary;
 
-    public Employee() {
+    public EmployeeMapReduce() {
     }
 
-    public Employee(int id, String name, String grade, double salary) {
+    public EmployeeMapReduce(int id, String name, String grade, double salary) {
         this.id = id;
         this.name = name;
         this.grade = grade;

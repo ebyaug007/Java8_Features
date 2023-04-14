@@ -1,4 +1,4 @@
-package com.javatechie.stream.api.example;
+package com.java.features;
 
 import java.util.List;
 import java.util.stream.Collectors;
