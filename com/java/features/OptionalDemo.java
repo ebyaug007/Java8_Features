@@ -30,7 +30,7 @@ public class OptionalDemo {
         //Optional<String> emailOptional = Optional.of(customer.getEmail());
         //System.out.println(emailOptional);
 
-        Optional<String> emailOptional2 = Optional.ofNullable(customer.getEmail());
+        Optional<String> emailOptional2 = Optional.ofNullable(customer.getEmail()).orElse(Optional.of("hello"));
        /* if(emailOptional2.isPresent()){
             System.out.println(emailOptional2.get());
         }*/

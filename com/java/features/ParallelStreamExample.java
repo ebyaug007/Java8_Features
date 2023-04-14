@@ -1,7 +1,6 @@
 package com.java.features;
 
-import com.javatechie.map_reduce.Employee;
-import com.javatechie.map_reduce.EmployeeDatabase;
+
 
 import java.util.List;
 import java.util.stream.IntStream;
@@ -35,19 +34,19 @@ public class ParallelStreamExample {
             System.out.println("Thread : "+Thread.currentThread().getName()+" : "+x);
         });
 
-        List<Employee> employees = EmployeeDatabase.getEmployees();
+        List<EmployeeMapReduce> employees = EmployeeDatabase.getEmployees();
 
         //normal
         start=System.currentTimeMillis();
         double salaryWithStream = employees.stream()
-                .map(Employee::getSalary).mapToDouble(i -> i).average().getAsDouble();
+                .map(EmployeeMapReduce::getSalary).mapToDouble(i -> i).average().getAsDouble();
         end=System.currentTimeMillis();
 
         System.out.println("Normal stream execution time : "+(end-start)+" : Avg salary : "+salaryWithStream);
 
         start=System.currentTimeMillis();
         double salaryWithParallelStream = employees.parallelStream()
-                .map(Employee::getSalary).mapToDouble(i -> i).average().getAsDouble();
+                .map(EmployeeMapReduce::getSalary).mapToDouble(i -> i).average().getAsDouble();
 
         end=System.currentTimeMillis();
 

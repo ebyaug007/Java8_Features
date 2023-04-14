@@ -5,9 +5,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import com.javatechie.stream.api.example.DataBase;
-import com.javatechie.stream.api.example.Employee;
-
 public class SortListDemo {
 
 	public static void main(String[] args) {

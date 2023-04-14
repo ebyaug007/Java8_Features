@@ -9,7 +9,6 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TreeMap;
 
-import com.javatechie.stream.api.example.Employee;
 
 public class SortMapDemo {
 
