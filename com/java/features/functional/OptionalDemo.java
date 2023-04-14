@@ -1,8 +1,11 @@
-package com.java.features;
+package com.java.features.functional;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+
+import com.java.features.Customer;
+import com.java.features.EkartDataBase;
 
 public class OptionalDemo {
 

@@ -1,8 +1,10 @@
-package com.java.features;
+package com.java.features.functional;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+
+import com.java.features.EmployeeDatabase;
 
 public class MapReduceExample {
 

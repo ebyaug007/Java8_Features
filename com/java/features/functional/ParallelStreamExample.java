@@ -1,9 +1,12 @@
-package com.java.features;
+package com.java.features.functional;
 
 
 
 import java.util.List;
 import java.util.stream.IntStream;
+
+import com.java.features.EmployeeDatabase;
+import com.java.features.EmployeeMapReduce;
 
 public class ParallelStreamExample {
 

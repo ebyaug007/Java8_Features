@@ -1,7 +1,10 @@
-package com.java.features;
+package com.java.features.functional;
 
 import java.util.List;
 import java.util.stream.Collectors;
+
+import com.java.features.CustomerMap;
+import com.java.features.EkartDataBaseMap;
 
 public class MapVsFlatMap {
     public static void main(String[] args) {
